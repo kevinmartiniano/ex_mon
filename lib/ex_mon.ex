@@ -28,5 +28,6 @@ defmodule ExMon do
     case move do
       :move_heal -> "realiza_cura"
       move -> Actions.attack(move)
+    end
   end
 end
